@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[url('https://images.unsplash.com/photo-1678118008062-1269a693a820?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat min-h-screen font-cinzel font-bold text-[#073d72b3] ">
+    <nav class="flex justify-around items-center">
+        <div class="logo mt-5">
+            <h1 class=" text-white text-6xl">Join Our Team</h1>
+            <p class="text-lg text-white text-center">Apply to be a member in our team</p>
+        </div>
+    </nav>
+
+    <section class="mt-4 flex justify-center font-cinzel font-semibold text-white ">
+        <div class="bg-gray-500 p-2 text-base text-center">
+          <h1>Want to know more about the roles?</h1>
+          <p class="font-light w-full">Check out our detailed job descriptiona and role
+          <br/>
+          requirements before applying.
+          </p>
+          <a href="link.html" class="bg-white text-black mt-2 px-1  rounded-xl border-2 border-blue-300 hover:bg-blue-400 hover:text-white transition duration-100">View Job Description</a>
+        </div>
+    </section>
+
+    <section class="flex justify-center mt-20 font-mono font-semibold">
+        <div class="bg-white w-full rounded-xl text-center ml-[100px] mr-[100px] mb-[100px] p-5">
+          <form class="space-y-5">
+
+          <!-- NAME & ROLL -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="font-cinzel text-[#0b2239] flex font-semibold">Name 
+                <span class="text-red-500">*</span>
+              </label>
+              <input type="text" placeholder="Your full name" class="w-full mt-1 font-cinzel bg-blue-50 border-blue-500 border rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+            <div>
+              <label class="font-cinzel text-[#0b2239] flex font-semibold">Roll Number <span class="text-red-500">*</span></label>
+              <input type="text" placeholder="Your roll number" class="font-cinzel w-full mt-1 border rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+          </div>
+
+          <!-- EMAIL -->
+            <div>
+              <label class="text-sm font-cinzel text-[#0b2239] flex font-semibold">Email 
+                <span class="text-red-500">*</span>
+              </label>
+              <input type="email" placeholder="your.email@example.com" class="w-full mt-1 border font-cinzel rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+
+            <!-- PHONE -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Phone</label>
+                <input type="text" placeholder="10-digit phone number" class="w-full mt-1 font-cinzel bg-blue-50 border-blue-500 border rounded px-3 py-2 text-sm" />
+              </div>
+              <div>
+                <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">WhatsApp</label>
+                <input type="text" placeholder="10-digit WhatsApp number" class="w-full font-cinzel mt-1 bg-blue-50 border-blue-500 border rounded px-3 py-2 text-sm" />
+              </div>
+            </div>
+
+          <!-- DOMAIN -->
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Domain</label>
+           <select required class="w-full font-cinzel bg-blue-50 border-blue-500 border rounded px-3 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer invalid:text-gray-400">
+              <option value="" disabled selected>Select your domain</option>
+              <option class="text-[#073d72b3]" value="web">Web Development</option>
+              <option class="text-[#073d72b3]" value="app">App Development</option>
+              <option class="text-[#073d72b3]" value="design">Design</option>
+              <option class="text-[#073d72b3]" value="marketing">Marketing</option>
+            </select>
+          </div>
+
+          <!-- LINKS -->
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Resume URL</label>
+            <input type="url" placeholder="https://drive.google.com/..." class="w-full font-cinzel mt-1 border rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm" />
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] font-cinzel flex font-semibold">Portfolio</label>
+            <input type="url" placeholder="https://yourportfolio.com" class="w-full font-cinzel mt-1 border rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm" />
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">LinkedIn</label>
+            <input type="url" placeholder="https://linkedin.com/in/..." class="w-full mt-1 font-cinzel border rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm" />
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">GitHub</label>
+            <input type="url" placeholder="https://github.com/..." class="w-full mt-1 border font-cinzel rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm" />
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Other Links</label>
+            <input type="text" class="w-full mt-1 border bg-blue-50 border-blue-500 font-cinzel rounded px-3 py-2 text-sm" />
+          </div>
+
+          <!-- TEXTAREAS -->
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Past Experience</label>
+            <textarea rows="3" placeholder="Tell us about your past experience..." class="w-full mt-1 font-cinzel border  rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm"></textarea>
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Other Societies</label>
+            <textarea rows="2" placeholder="Organizations you're part of" class="w-full mt-1 border font-cinzel rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm"></textarea>
+          </div>
+
+          <!-- REFERRAL -->
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">How did you hear about us?</label>
+            <select required class="w-full font-cinzel bg-blue-50 border-blue-500 border rounded px-3 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer invalid:text-gray-400">
+              <option value="" disabled selected>Select option</option>
+              <option class="text-[#0b2239]">Friend</option>
+              <option class="text-[#0b2239]">Instagram</option>
+              <option class="text-[#0b2239]">WhatsApp</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="text-sm text-[#0b2239] flex font-cinzel font-semibold">Referral</label>
+            <input type="text" placeholder="Who referred you?" class="w-full font-cinzel mt-1 border rounded bg-blue-50 border-blue-500 px-3 py-2 text-sm" />
+          </div>
+
+          <!-- SUBMIT -->
+          <button
+            class="w-[500px]  bg-blue-600 font-cinzel text-white py-3 rounded font-semibold hover:bg-blue-700">Submit Application</button>
+          </form>
+        </div>
+    </section>
+</body>
+</html>
